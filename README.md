@@ -129,7 +129,7 @@ This extended run is not part of the main comparison, but it serves as a refinem
 
 The final demo loads the trained model from the extended 1000-episode run and performs a full gameplay episode using a greedy policy.
 
-- **Model file:** `pong_trained_model_tu10_ext1000.pth`
+- **Model file:** `Trained_model.pth`
 - **Example result:** reward approximately `20–21`
 
 **Note:** Small reward variations are expected due to environment stochasticity.
@@ -172,13 +172,13 @@ The final demo loads the trained model from the extended 1000-episode run and pe
 
 ### Recommended Python Version
 
-This project was developed and tested with **Python 3.11.9**.
+This project was developed and tested with **Python 3.11.3**.
 
 ### Setup
 
 ```bash
-git clone <git repo>
-cd DQN_Assignment3
+git clone https://github.com/9082825/Assignment3.git
+cd Assignment3
 pip install -r requirements.txt
 jupyter notebook
 ```
